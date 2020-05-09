@@ -1,4 +1,4 @@
-const firstName = 'Tomasz';
+const firstName = "Tomasz";
 const age = 33;
 
 console.log(firstName);
