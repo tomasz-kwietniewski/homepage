@@ -10,26 +10,26 @@
 
 </head>
 
-<body class="central-position">
+<body>
     <header>
         <nav>
-            <div class="navigation-bar">
-                <div class="navigation-button">
-                    <a class="navigation-link" href="index.html">Strona główna</a>
+            <div class="navigation">
+                <div class="navigation__button">
+                    <a class="navigation__link" href="index.html">Strona główna</a>
                 </div>
                 
-                <div class="navigation-button">
-                    <a class="navigation-link" href="nauka-html.html">Nauka HTML</a>
+                <div class="navigation__button">
+                    <a class="navigation__link" href="nauka-html.html">Nauka HTML</a>
                 </div>
                 
-                <div class="navigation-button">
-                    <a class="navigation-link" href="nauka-css.html">Nauka CSS</a>
+                <div class="navigation__button">
+                    <a class="navigation__link" href="nauka-css.html">Nauka CSS</a>
                 </div>
-                <div class="navigation-button">
-                    <a class="navigation-link" href="nauka-js.html">Nauka JS</a>
+                <div class="navigation__button">
+                    <a class="navigation__link" href="nauka-js.html">Nauka JS</a>
                 </div>
-                <div class="navigation-button">
-                    <a class="navigation-link" href="animals-for-Jeremiah.html">Zwierzątka dla Jeremiasza</a>
+                <div class="navigation__button">
+                    <a class="navigation__link" href="animals-for-Jeremiah.html">Zwierzątka dla Jeremiasza</a>
                 </div> 
             </div>                                         
             
@@ -39,14 +39,14 @@
 
     <main>
             <header>
-                <h1 class="first-header">Tomasz Kwietniewski – Strona domowa</h1>
+                <h1 class="header-h1">Tomasz Kwietniewski – Strona domowa</h1>
             </header>
        
         
-             <section>
-                <h2>Kim jestem?</h2>
-                <img src="Tomek_K_mini.jpg" alt="Piękne oblicze Tomasza" />
-                 <p>Wspaniałym człowiekiem, mężem i ojcem. Z wykształcenia <i>polityk społeczny</i>. Pracowałem w
+             <section class="introduction">
+                <h2 class="introduction__title">Kim jestem?</h2>
+                <img src="Tomek_K_mini.jpg" alt="Piękne oblicze Tomasza" width="600px"/>
+                 <p class="introduction__text">Wspaniałym człowiekiem, mężem i ojcem. Z wykształcenia <i>polityk społeczny</i>. Pracowałem w
             organizacjach pozarządowych – <b>Akademii Rozwoju Filantropii w Polsce</b> i Centrum Edukacji Obywatelskiej. </br>
             Aktualnie pracuję w <a href="https://antypirat.pl/">Anti-Piracy Protection</a>. Interesuję się historią,
             sportem, polityką, gospodarką.</br>
@@ -54,12 +54,12 @@
                 </p>
             </section>
 
-            <section id="notatki">
-                <h2 class="second-header">Notatki z WTF: Co ten frontend?</h2>
+            <section class="notes">
+                <h2 class="notes__header">Notatki z WTF: Co ten frontend?</h2>
 
-                <article>
-                    <h3 class="third-header">Jak stworzyć prawidłowego HTML-a?</h3>
-                    <p>Tutaj sobie zapiszę to co jest dla mnie ważne. Tipy, skróty.
+                <article class="notes__article">
+                    <h3 class="notes__title">Jak stworzyć prawidłowego HTML-a?</h3>
+                    <p class="notes__article-text">Tutaj sobie zapiszę to co jest dla mnie ważne. Tipy, skróty.
 
                     1. Szkielet HTML: !Tab
                     2. Znaczniki main, section, article, header, h1-h6, link.
@@ -69,17 +69,17 @@
                     </p>
                 </article>
 
-        <article>
-            <h3 class="third-header">Kolejny temat CSS</h3>
-            <p>CSS to reguły. selektor {
+        <article class="notes__article">
+            <h3 class="notes__title">Kolejny temat CSS</h3>
+            <p class="notes__article-text">CSS to reguły. selektor {
                 właściwość: wartość;
                 }
             </p>
         </article>
 
-        <article>
-            <h3 class="third-header">Magia programowania</h3>
-            <p>
+        <article class="notes__article">
+            <h3 class="notes__title">Magia programowania</h3>
+            <p class="notes__article-text">
                 Zapalenie samochodu. <strong>Wziąć kluczyki.</strong> Ubrać się. Wyjść z domu. Znaleźć samochód.
                 Otworzyć centralny
                 zamek. Wsiąść do samochodu. Włożyć kluczyk do stacyjki. <em>Wcisnąć sprzęgło i hamulec.</em>
@@ -88,9 +88,9 @@
             </p>
         </article>
 
-        <article>
-            <h3 class="third-header">Git i GitHub</h3>
-            <p>
+        <article class="notes__article">
+            <h3 class="notes__title">Git i GitHub</h3>
+            <p class="notes__article-text">
                 Zainstalować Gita, zalogować go na konto tomasz-kwietniewski, połączyć z repozytorium zdalnym.
             </p>
         </article>

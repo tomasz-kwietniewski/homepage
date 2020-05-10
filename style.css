@@ -1,36 +1,24 @@
-.first-header {
-  color: #06aed5;
-}
-
-.second-header {
-  color: #086788;
-}
-
-.third-header {
-  color: #f0c808;
-}
-
 a {
   color: #dd1c1a;
 }
 
-.navigation-link {
+.navigation__link {
   color: white;
 }
 
-.central-position {
+body {
   text-align: center;
   max-width: 800px;
   margin-left: auto;
   margin-right: auto;
 }
 
-.navigation-bar {
+.navigation {
   background-color: white;
   position: fixed;  
   }
 
-.navigation-button {
+.navigation__button {
   display: inline-block;
   padding: 10px;
   border-width: 1px;
@@ -44,4 +32,42 @@ a {
 
 main {
   padding-top: 70px;
+}
+
+.header-h1 {
+  color: #06aed5;
+}
+
+.introduction {
+
+}
+
+.introduction__title {
+  color: #086788;
+}
+
+.introduction__text {
+  font-size: larger;
+}
+
+.notes {
+
+}
+
+.notes__header {
+  color: #0f5261
+}
+
+.notes__article {
+  border-style: solid;
+  border-width: 1px;
+  margin-bottom: 5px;
+  }
+
+.notes__title {
+  color: #f0c808;
+}
+
+.notes__article-text {
+  font-family: "Gill Sans", sans-serif;
 }
