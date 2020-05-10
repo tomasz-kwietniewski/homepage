@@ -7,7 +7,7 @@
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
 
-  <body class="central-position">
+  <body>
     <header>
       <div class="navigation">
         <div class="navigation__button">
@@ -31,42 +31,46 @@
     </header>
 
     <main>
-      <header id="top">
-        <h1>Nauka CSS</h1>
+      <header>
+        <h1 class="header-h1">Nauka CSS</h1>
       </header>
       <img src="css-image.jpg" alt="logo CSS" />
 
-      <section>
-        <h2 class="second-header">Jaka będzie kolejność?</h2>
-        <article>
-          <h3>!important (nie używamy)</h3>
-          <h3>style="" (nie używamy)</h3>
-          <h3>html id="name" to css #name</h3>
-          <h3>html class="name" to css .name</h3>
-          <h3>element</h3>
+      <section class="notes">
+        <h2 class="notes__header">Jaka będzie kolejność?</h2>
+        <article class="notes__article">
+          <h3 class="notes__title">!important (nie używamy)</h3>
+          <h3 class="notes__title">style="" (nie używamy)</h3>
+          <h3 class="notes__title">html id="name" to css #name</h3>
+          <h3 class="notes__title">html class="name" to css .name</h3>
+          <h3 class="notes__title">element</h3>
         </article>
 
-        <h2 class="second-header">Specyficzność w CSS</h2>
-        <article>
-          <p>
+        <h2 class="notes__header">Specyficzność w CSS</h2>
+        <article class="notes__article">
+          <p class="notes__article-text">
             Jak tabela medalowa. Najpierw sortujemy po najważniejszym medalu. W
             przypadku remisu patrzymy na mniej ważny medal itd.<br />
             Kolejność od najważniejszego (najwyższa specyficzność): !important,
             style="", #name, .name, element.
           </p>
 
-          <h3>Dodawać klasy do wszystkich elementów i unikać zagnieżdżeń.</h3>
+          <h3 class="notes__title">Dodawać klasy do wszystkich elementów i unikać zagnieżdżeń.</h3>
         </article>
 
-        <h2 class="second-header">Nazewnictwo klas</h2>
-        <p>
-          Używaj pojedynczych słów z języka angielskiego; nazywaj rzeczy zgodnie
-          z ich funkcją na stronie; startuj z małej litery np. header a nie
-          Header; nie zaczynaj od cyfry; jeśli musisz używać dwóch słów, użyj
-          tzw. kebab case np. news-listing; staraj się, żeby element miał jedną
-          klasę (nie zwiększaj specyficzności bez potrzeby); tworzymy klasy
-          nawet kiedy mamy jeden element danego typu.
-        </p>
+        <h2 class="notes__header">Nazewnictwo klas</h2>
+          <article class="notes__article">
+            <p class="notes__article-text"> 
+              Używaj pojedynczych słów z języka angielskiego; nazywaj rzeczy zgodnie
+              z ich funkcją na stronie; startuj z małej litery np. header a nie
+              Header; nie zaczynaj od cyfry; jeśli musisz używać dwóch słów, użyj
+              tzw. kebab case np. news-listing; staraj się, żeby element miał jedną
+              klasę (nie zwiększaj specyficzności bez potrzeby); tworzymy klasy
+              nawet kiedy mamy jeden element danego typu.
+            </p>
+
+          </article>
+        
       </section>
     </main>
     <footer>

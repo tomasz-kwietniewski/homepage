@@ -39,6 +39,7 @@ main {
 }
 
 .introduction {
+  background: #aedae4;
 
 }
 
@@ -51,7 +52,9 @@ main {
 }
 
 .notes {
-
+  border-style: dashed;
+  border-width: 1px;
+  padding: 10px;
 }
 
 .notes__header {
@@ -70,4 +73,8 @@ main {
 
 .notes__article-text {
   font-family: "Gill Sans", sans-serif;
+}
+
+footer {
+  font-size: smaller;
 }
