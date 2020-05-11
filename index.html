@@ -1,118 +1,120 @@
 <!DOCTYPE html>
 <html lang="pl">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
 
-
-</head>
-
-<body>
+  <body>
     <header>
-        <nav>
-            <div class="navigation">
-                <div class="navigation__button">
-                    <a class="navigation__link" href="index.html">Strona główna</a>
-                </div>
-                
-                <div class="navigation__button">
-                    <a class="navigation__link" href="nauka-html.html">Nauka HTML</a>
-                </div>
-                
-                <div class="navigation__button">
-                    <a class="navigation__link" href="nauka-css.html">Nauka CSS</a>
-                </div>
-                <div class="navigation__button">
-                    <a class="navigation__link" href="nauka-js.html">Nauka JS</a>
-                </div>
-                <div class="navigation__button">
-                    <a class="navigation__link" href="animals-for-Jeremiah.html">Zwierzątka dla Jeremiasza</a>
-                </div> 
-            </div>                                         
-            
-        </nav>
+      <nav>
+        <div class="navigation">
+          <div class="navigation__button">
+            <a class="navigation__link" href="index.html">Strona główna</a>
+          </div>
+
+          <div class="navigation__button">
+            <a class="navigation__link" href="nauka-html.html">Nauka HTML</a>
+          </div>
+
+          <div class="navigation__button">
+            <a class="navigation__link" href="nauka-css.html">Nauka CSS</a>
+          </div>
+          <div class="navigation__button">
+            <a class="navigation__link" href="nauka-js.html">Nauka JS</a>
+          </div>
+          <div class="navigation__button">
+            <a class="navigation__link" href="animals-for-Jeremiah.html"
+              >Zwierzątka dla Jeremiasza</a
+            >
+          </div>
+        </div>
+      </nav>
     </header>
-    
 
-    <main>
-            <header>
-                <h1 class="header-h1 header-h1--js">Tomasz Kwietniewski – Strona domowa</h1>
-            </header>
-       
-        
-             <section class="introduction">
-                <h2 class="introduction__title">Kim jestem?</h2>
-                <img src="Tomek_K_mini.jpg" alt="Piękne oblicze Tomasza" width="800px"/>
-                 <p class="introduction__text">Wspaniałym człowiekiem, mężem i ojcem. Z wykształcenia <i>polityk społeczny</i>. Pracowałem w
-            organizacjach pozarządowych – <b>Akademii Rozwoju Filantropii w Polsce</b> i Centrum Edukacji Obywatelskiej. </br>
-            Aktualnie pracuję w <a href="https://antypirat.pl/">Anti-Piracy Protection</a>. Interesuję się historią,
-            sportem, polityką, gospodarką.</br>
-                <a href="#notatki">Przejdź do notatek</a>
-                </p>
-            </section>
+    <main class="main">
+      <header class="main__header">
+        <h1 class="main__title main__title--js">
+          Tomasz Kwietniewski – Strona domowa
+        </h1>
+      </header>
 
-            <section class="notes">
-                <h2 class="notes__header">Notatki z WTF: Co ten frontend?</h2>
+      <section class="introduction">
+        <h2 class="introduction__title">Kim jestem?</h2>
+        <img
+          class="introduction__picture"
+          src="Tomek_K_mini.jpg"
+          alt="Piękne oblicze Tomasza"
+          width="800px"
+        />
+        <p class="introduction__text">
+          Wspaniałym człowiekiem, mężem i ojcem. Z wykształcenia
+          <i>polityk społeczny</i>. Pracowałem w organizacjach pozarządowych –
+          <b>Akademii Rozwoju Filantropii w Polsce</b> i Centrum Edukacji
+          Obywatelskiej. <br />
+          Aktualnie pracuję w
+          <a href="https://antypirat.pl/">Anti-Piracy Protection</a>. Interesuję
+          się historią, sportem, polityką, gospodarką.<br />
+          <a href="#notatki">Przejdź do notatek</a>
+        </p>
+      </section>
 
-                <article class="notes__article">
-                    <h3 class="notes__title">Jak stworzyć prawidłowego HTML-a?</h3>
-                    <p class="notes__article-text">Tutaj sobie zapiszę to co jest dla mnie ważne. Tipy, skróty.
-
-                    1. Szkielet HTML: !Tab
-                    2. Znaczniki main, section, article, header, h1-h6, link.
-                    3. Ctrl+Shift+P i polecenie Fromat Document do porządkowania.
-                    4. W3 NU Validator - narzędzie do sprawdzania kodu.
-
-                    </p>
-                </article>
-
-                <article class="notes__article">
-                    <h3 class="notes__title">Kolejny temat CSS</h3>
-                    <p class="notes__article-text">CSS to reguły. selektor {
-                    właściwość: wartość;
-                    }
-                    </p>
-                </article>
+      <section class="notes">
+        <h2 class="notes__header">Notatki z WTF: Co ten frontend?</h2>
 
         <article class="notes__article">
-            <h3 class="notes__title">Magia programowania</h3>
-            <p class="notes__article-text">
-                Zapalenie samochodu. <strong>Wziąć kluczyki.</strong> Ubrać się. Wyjść z domu. Znaleźć samochód.
-                Otworzyć centralny
-                zamek. Wsiąść do samochodu. Włożyć kluczyk do stacyjki. <em>Wcisnąć sprzęgło i hamulec.</em>
-                Przekręcić
-                kluczyk.
-            </p>
+          <h3 class="notes__title">Jak stworzyć prawidłowego HTML-a?</h3>
+          <p class="notes__article-text">
+            Tutaj sobie zapiszę to co jest dla mnie ważne. Tipy, skróty. 1.
+            Szkielet HTML: !Tab 2. Znaczniki main, section, article, header,
+            h1-h6, link. 3. Ctrl+Shift+P i polecenie Fromat Document do
+            porządkowania. 4. W3 NU Validator - narzędzie do sprawdzania kodu.
+          </p>
         </article>
 
         <article class="notes__article">
-            <h3 class="notes__title">Git i GitHub</h3>
-            <p class="notes__article-text">
-                Zainstalować Gita, zalogować go na konto tomasz-kwietniewski, połączyć z repozytorium zdalnym.
-            </p>
+          <h3 class="notes__title">Kolejny temat CSS</h3>
+          <p class="notes__article-text">
+            CSS to reguły. selektor { właściwość: wartość; }
+          </p>
+        </article>
+
+        <article class="notes__article">
+          <h3 class="notes__title">Magia programowania</h3>
+          <p class="notes__article-text">
+            Zapalenie samochodu. <strong>Wziąć kluczyki.</strong> Ubrać się.
+            Wyjść z domu. Znaleźć samochód. Otworzyć centralny zamek. Wsiąść do
+            samochodu. Włożyć kluczyk do stacyjki.
+            <em>Wcisnąć sprzęgło i hamulec.</em>
+            Przekręcić kluczyk.
+          </p>
+        </article>
+
+        <article class="notes__article">
+          <h3 class="notes__title">Git i GitHub</h3>
+          <p class="notes__article-text">
+            Zainstalować Gita, zalogować go na konto tomasz-kwietniewski,
+            połączyć z repozytorium zdalnym.
+          </p>
         </article>
 
         <article class="notes__article notes__article--js">
-            <p>
-                Tutaj będzie element z wartością zmienioną przez JavaScript.
-            </p>
-
+          <h3 class="notes__title">JavaScript in action</h3>
+          <p>
+            Tutaj będzie element z wartością zmienioną przez JavaScript.
+          </p>
         </article>
-
-    </section>
-
-
+      </section>
     </main>
 
-    <footer>
-        Strona domowa Tomasza Kwietniewskiego. Wszelkie prawa zastrzeżone. Wszystkie treści są efektem pracy ze
-        szkolenia Co ten frontend. <a href="#top">Wróć na górę strony.</a>
+    <footer class="footer">
+      Strona domowa Tomasza Kwietniewskiego. Wszelkie prawa zastrzeżone.
+      Wszystkie treści są efektem pracy ze szkolenia Co ten frontend.
+      <a href="#top">Wróć na górę strony.</a>
     </footer>
 
     <script src="main.js"></script>
-</body>
-
+  </body>
 </html>
