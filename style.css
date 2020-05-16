@@ -13,15 +13,14 @@ a {
 }
 
 body {
-  background-color: #fa8bff;
+  background-color: #0093e9;
   background-image: linear-gradient(
-    0deg,
-    #fa8bff 0%,
-    #2bd2ff 25%,
-    #2bff88 45%,
-    #ffffff 75%,
+    160deg,
+    #0093e9 0%,
+    #80d0c7 32%,
     #ffffff 100%
   );
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .navigation {
@@ -31,19 +30,6 @@ body {
   justify-content: center;
   border-radius: 8px;
   margin: 5px;
-}
-
-/*div buttons*/
-.navigation__button {
-  display: inline-block;
-  padding: 10px;
-  border-width: 1px;
-  border-radius: 10px;
-  border-style: solid;
-  border-color: #e71717;
-  background: burlywood;
-  margin: 10px;
-  color: white;
 }
 
 .navigation__link {
@@ -64,10 +50,12 @@ body {
 }
 
 .main__title {
-  color: #06aed5;
+  color: #830544;
+  padding: 16px;
 }
 
 .introduction {
+  padding: 16px;
 }
 
 .introduction__picture {
@@ -79,12 +67,13 @@ body {
 
 .introduction__text {
   font-size: larger;
+  line-height: 30px;
 }
 
 .notes {
   border-style: dashed;
   border-width: 1px;
-  padding: 10px;
+  padding: 16px;
 }
 
 .notes__header {
@@ -95,7 +84,7 @@ body {
   border-style: solid;
   border-width: 1px;
   margin-bottom: 5px;
-  padding: 10px;
+  padding: 16px;
 }
 
 .notes__title {
@@ -103,11 +92,12 @@ body {
 }
 
 .notes__article-text {
-  font-family: "Gill Sans", sans-serif;
+  line-height: 30px;
 }
 
 .footer {
   max-width: 1000px;
   margin: 0 auto;
   font-size: smaller;
+  padding: 16px;
 }

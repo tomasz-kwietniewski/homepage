@@ -1,0 +1,34 @@
+<div class="navigation">
+        <div class="navigation__button">
+          <a class="navigation__link" href="index.html">Strona główna</a>
+        </div>
+
+        <div class="navigation__button">
+          <a class="navigation__link" href="nauka-html.html">Nauka HTML</a>
+        </div>
+
+        <div class="navigation__button">
+          <a class="navigation__link" href="nauka-css.html">Nauka CSS</a>
+        </div>
+        <div class="navigation__button">
+          <a class="navigation__link" href="nauka-js.html">Nauka JS</a>
+        </div>
+        <div class="navigation__button">
+          <a class="navigation__link" href="animals-for-Jeremiah.html"
+            >Zwierzątka dla Jeremiasza</a
+          >
+        </div>
+      </div>
+	  
+/*div buttons*/
+.navigation__button {
+  display: inline-block;
+  padding: 10px;
+  border-width: 1px;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #e71717;
+  background: burlywood;
+  margin: 10px;
+  color: white;
+}
