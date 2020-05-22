@@ -29,7 +29,7 @@ p {
 
 .aside {
   grid-area: aside;
-
+  padding: 16px;
 }
 
 .navigation {
@@ -75,6 +75,9 @@ p {
   }
 
 .introduction__picture {
+  display: block;
+  max-width: 100%;
+  margin: 0 auto;
 }
 
 .introduction__title {
@@ -118,4 +121,10 @@ p {
   font-size: smaller;
   padding: 16px;
   grid-area: footer;
+}
+
+@media screen and (max-width: 767px) {
+  .main {
+    display: block;
+  }
 }
