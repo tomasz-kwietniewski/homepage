@@ -50,3 +50,10 @@ createContent('.notes__title--js', 'Notatka zmieniona przez function JS');
 createContent('.notes__article-text--js', 'Teskt wprowadzony również przez function JS') 
 
 */
+
+const menu = document.querySelector('.menu--js');
+
+menu.addEventListener('click', () => {
+  const nav = document.querySelector('.navigation--js');
+  nav.classList.toggle('navigation--open')
+})
