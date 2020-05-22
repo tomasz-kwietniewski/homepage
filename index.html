@@ -30,31 +30,31 @@
         <h1 class="main__title main__title--js">
           Tomasz Kwietniewski – Strona domowa
         </h1>
-      </header>
-
-      <section class="introduction">
-        <h2 class="introduction__title">Kim jestem?</h2>
-        <img
-          srcset="Tomek_K_mini-400px.jpg 400w, Tomek_K_mini-800px.jpg 800w"
-          sizes="(max-width: 800px) 400px,
+      
+        <section class="introduction">
+          <h2 class="introduction__title">Kim jestem?</h2>
+          <img class="introduction__picture"
+            srcset="Tomek_K_mini-400px.jpg 400w, Tomek_K_mini-800px.jpg 800w"
+            sizes="(max-width: 800px) 400px,
           800px"
-          src="Tomek_K_mini-800px.jpg"
-          alt="Piękne oblicze Tomasza K."
-        />
+            src="Tomek_K_mini-800px.jpg"
+            alt="Piękne oblicze Tomasza K."
+          />
 
-        <p class="introduction__text">
-          Wspaniałym człowiekiem, mężem i ojcem. Z wykształcenia
-          <i>polityk społeczny</i>. Pracowałem w organizacjach pozarządowych –
-          <b>Akademii Rozwoju Filantropii w Polsce</b> i Centrum Edukacji
-          Obywatelskiej. <br />
-          Aktualnie pracuję w
-          <a href="https://antypirat.pl/">Anti-Piracy Protection</a>. Interesuję
-          się historią, sportem, polityką, gospodarką.<br />
-          Bardzo lubię rozwiązywać problemy (szukać rozwiązania), optymalizować
-          wysiłek ludzi i im pomagać. <br />
-          <a href="#notatki">Przejdź do notatek</a>
-        </p>
-      </section>
+          <p class="introduction__text">
+            Wspaniałym człowiekiem, mężem i ojcem. Z wykształcenia
+            <i>polityk społeczny</i>. Pracowałem w organizacjach pozarządowych –
+            <b>Akademii Rozwoju Filantropii w Polsce</b> i Centrum Edukacji
+            Obywatelskiej. <br />
+            Aktualnie pracuję w
+            <a href="https://antypirat.pl/">Anti-Piracy Protection</a>.
+            Interesuję się historią, sportem, polityką, gospodarką.<br />
+            Bardzo lubię rozwiązywać problemy (szukać rozwiązania),
+            optymalizować wysiłek ludzi i im pomagać. <br />
+            <a href="#notatki">Przejdź do notatek</a>
+          </p>
+        </section>
+      </header>
 
       <section class="notes">
         <h2 class="notes__header">Notatki z WTF: Co ten frontend?</h2>
@@ -102,13 +102,23 @@
           </p>
         </article>
       </section>
-    </main>
 
-    <footer class="footer">
-      Strona domowa Tomasza Kwietniewskiego. Wszelkie prawa zastrzeżone.
-      Wszystkie treści są efektem pracy ze szkolenia Co ten frontend.
-      <a href="#top">Wróć na górę strony.</a>
-    </footer>
+      <aside class="aside">
+        <h4>O co tu chodzi?</h4>
+        <p>
+          To jest strona, która powstaje w ramach szkolenia WTF Co ten frontend.
+          To jest pole aside, efekt zastosowania grida. Obok powinny być
+          dodawane artykuły ze szkolenia, ale trochę nie chce mi się ich
+          dodawać;-).
+        </p>
+      </aside>
+
+      <footer class="footer">
+        Strona domowa Tomasza Kwietniewskiego. Wszelkie prawa zastrzeżone.
+        Wszystkie treści są efektem pracy ze szkolenia Co ten frontend.
+        <a href="#top">Wróć na górę strony.</a>
+      </footer>
+    </main>
 
     <script src="main.js"></script>
   </body>
