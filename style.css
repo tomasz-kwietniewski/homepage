@@ -1,3 +1,4 @@
+@charset "UTF-8";
 html {
   box-sizing: border-box; }
 
@@ -36,6 +37,8 @@ p {
     color: white;
     display: block;
     margin: 0 0 16px; }
+  .navigation__link:hover {
+    color: red; }
   .navigation--open {
     display: block; }
 
@@ -82,10 +85,14 @@ p {
     border-width: 1px;
     margin-bottom: 5px;
     padding: 16px; }
-  .notes__title {
-    color: #f0c808; }
+  .notes__article:hover {
+    background-color: #4297f8; }
   .notes__article-text {
     line-height: 30px; }
+  .notes__title {
+    color: #f0c808; }
+  .notes__title::before {
+    content: "😎"; }
 
 .footer {
   max-width: 1000px;

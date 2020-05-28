@@ -49,6 +49,9 @@ p {
     display: block;
     margin: 0 0 16px;
   }
+  &__link:hover {
+    color: red;
+  }
   &--open {
     display: block;
   }
@@ -108,11 +111,17 @@ p {
     margin-bottom: 5px;
     padding: 16px;
   }
-  &__title {
-    color: #f0c808;
+  &__article:hover {
+    background-color: #4297f8;
   }
   &__article-text {
     line-height: 30px;
+  }
+  &__title {
+    color: #f0c808;
+  }
+  &__title::before {
+    content: "😎";
   }
 }
 
